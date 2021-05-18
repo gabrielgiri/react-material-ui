@@ -1,0 +1,5 @@
+.MuiBox-root button,
+.MuiBox-root a,
+.MuiButtonGroup-root {
+  margin: 5px;
+}
