@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App.jsx';
+import Buttons from './Buttons.jsx';
+import AppSlider from './AppSlider.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Buttons />
+    <AppSlider />
   </React.StrictMode>,
   document.getElementById('root')
 );

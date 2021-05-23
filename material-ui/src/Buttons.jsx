@@ -23,7 +23,7 @@ const StyledButton = withStyles({
 })(Button);
 
 
-function App() {
+function Buttons() {
   return (
     <Container fixed>
     
@@ -140,4 +140,4 @@ function App() {
   );
 }
 
-export default App;
+export default Buttons;
