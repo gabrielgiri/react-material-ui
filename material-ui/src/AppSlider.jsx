@@ -1,11 +1,11 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import Slider from '@material-ui/core/Slider';
-import VolumeDown from '@material-ui/icons/VolumeDown';
-import VolumeUp from '@material-ui/icons/VolumeUp';
+import { makeStyles } from '@mui/styles'; // cambiado
+import Grid from '@mui/material/Grid'; // cambiado
+import Container from '@mui/material/Container'; // cambiado
+import Typography from '@mui/material/Typography'; // cambiado
+import Slider from '@mui/material/Slider'; // cambiado
+import VolumeDown from '@mui/icons-material/VolumeDown'; // cambiado
+import VolumeUp from '@mui/icons-material/VolumeUp'; // cambiado
 
 const useStyles = makeStyles({
   root: {
